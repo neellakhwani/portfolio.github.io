@@ -11,6 +11,15 @@ body{
 	background-image:url(../images/background.svg);
 	background-repeat: repeat;
 }
+.comiclink {
+	text-decoration: none;
+	color: #33BBA4;
+}
+
+.comiclink:hover {
+	text-decoration: none;
+	color: #F0586D;
+}
 
 .designername a{
 	text-decoration: none;
@@ -223,6 +232,10 @@ nav ul li a:active{
 
 .email{
 	color: #33BBA4;
+}
+.email:hover {
+	text-decoration: none;
+	color: #F0586D;
 }
 
 .projecttitle{
