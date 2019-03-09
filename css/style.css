@@ -88,11 +88,14 @@ nav ul li a{
 	color: #000;
 }
 
-nav ul li a:hover{
+nav ul li a:hover,
+nav ul li a:active{
 	border-bottom: 2px solid #F0586D;
 	text-decoration: none;
 	color: #000;
 }
+
+
 
 .col-sm-4{
 	padding: 5vh 0 0 0;
@@ -235,7 +238,7 @@ nav ul li a:hover{
 	width: 30vw;
 }
 .content {
-	margin: 5vh 0 0 3vw;
+	margin: 3vh 0 4vh 3vw;
 	font-size: 16px;
 }
 
@@ -245,14 +248,14 @@ nav ul li a:hover{
 
 .contentimg{
 	margin: auto;
-	width: 90%;
+	width: 85%;
 	text-align: center;
 }
 
 .imagetitle{
 	font-size: 12px;
 	font-style: italic;
-	margin: 2vh 0 0 0;
+	margin: 2vh 0 2vh 0;
 }
 .divider{
 	border: 3px solid #EEEFF0;
@@ -278,6 +281,7 @@ nav ul li a:hover{
 	text-decoration: none;
   
 }
+
 
 @media only screen and (max-width: 768px) {
 
@@ -383,7 +387,7 @@ nav ul li{
 
 .imagetitle{
 	font-size: 10px;
-	margin: 0 0 0 3vw;
+	margin: 1vh 0 1vh 0;
 }
 
 .date{
