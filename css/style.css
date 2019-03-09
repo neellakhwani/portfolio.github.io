@@ -68,6 +68,10 @@ header{
 	position: relative;
 }
 
+nav{
+	background-color: white;
+	height: 12vh;
+}
 nav ul{
 	list-style-type: none;
 	/*margin: -6.5vh 3vw 0 85vw;*/
@@ -284,14 +288,14 @@ nav ul li a:hover{
 nav{
 	background-color: #F8F8F8;
 	border-bottom: 2px solid #EEEEEE;
-	height: 13vh;
+	height: 14vh;
 }
 
 .menu{
 	position: relative;
 	margin: auto;
-	top: 2vh;
-	right: 40vw;
+	top: 3.5vh;
+	right: 39vw;
 	text-align: center;
 	height: 2px;
 }
@@ -327,8 +331,9 @@ nav ul li a{
 	text-decoration: none;
 	color: #000;
 	font-weight: normal;
-	font-size: 14px;
+	font-size: 16px;
 	position: relative;
+	padding-right: 1vw;
 }
 
 nav ul{
@@ -367,7 +372,7 @@ nav ul li{
 
 .content {
 	margin: 3vh 0 0 3vw;
-	font-size: 16px;
+	font-size: px;
 	width: 100%;
 }
 
@@ -402,4 +407,5 @@ nav ul li{
 	font-size: 20px;
 	font-weight: bold;
 
+}
 }
