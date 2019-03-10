@@ -139,7 +139,7 @@ nav ul li a:active{
 }
 
 .footer {
-  font-family: Nunito, "Roboto", "Helvetica Neue", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   width: auto;
   color: #222831;
@@ -157,7 +157,7 @@ nav ul li a:active{
 
   /* Uses https://github.com/IanLunn/Hover */
 .hvr-grow-shadow {
-  background-color: #ddd;
+  background-color: #F1F1F1;
   display: inline;
   border: none;
   margin: 4px;
@@ -169,7 +169,7 @@ nav ul li a:active{
   text-align: center;
   text-decoration: none;
   font-size: 20px;
-  font-family: Nunito, "Roboto", "Helvetica Neue", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 900;
   display: inline-block;
   vertical-align: middle;
@@ -190,9 +190,9 @@ nav ul li a:active{
 
   .hvr-grow-shadow:hover,
 .hvr-grow-shadow:active {
-  box-shadow: 0px 3px 34px -4px rgba(0, 0, 0, 0.5);
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  box-shadow: 0px 3px 34px -4px rgba(59, 89, 153, 0.7);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
   outline: none; 
 }
 
