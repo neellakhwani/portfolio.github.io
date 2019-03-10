@@ -11,6 +11,8 @@ body{
 	background-image:url(../images/background.svg);
 	background-repeat: repeat;
 }
+
+
 .comiclink {
 	text-decoration: none;
 	color: #33BBA4;
@@ -250,8 +252,22 @@ nav ul li a:active{
 	margin: 8vh 0 0 3vw;
 	font-size: 26px;
 	font-weight: bold;
-
 }
+
+.subtitle{
+	margin: 3vh 0 0.5vh 0;
+	font-size: 24px;
+	font-weight: bold;
+}
+.list{
+	margin: 2vh 0 0 4vw;
+}
+
+.problems{
+	font-size: 18px;
+	font-weight: bold;
+}
+
 .date{
 	margin:0 0 0 3vw;
 	font-size: 16px;
