@@ -118,20 +118,28 @@ nav ul li a:active{
 	height: auto;
 	width: 245px;
 }
-.img1{
-	box-shadow: 0px 4px 6px #321438;
+.snapchatimg{
+	box-shadow: 0px 4px 6px rgba(224, 222, 65, 0.71);
 }
 
-.img2{
+.tedximg{
 	box-shadow: 0px 4px 8px rgba(255, 0, 0, 0.31);
 }
 
-.img3{
+.themaniaimg{
 	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.67);
 }
 
-.img4{
+.wearelikethisonlyimg{
 	box-shadow: 0px 4px 8px #0A5FAB;
+}
+
+.exunimg{
+	box-shadow: 0px 4px 6px #321438;
+}
+
+.nzpimg{
+	box-shadow: 0px 4px 10px #3C9555;
 }
 
 .spaced {
@@ -191,8 +199,8 @@ nav ul li a:active{
   .hvr-grow-shadow:hover,
 .hvr-grow-shadow:active {
   box-shadow: 0px 3px 34px -4px rgba(59, 89, 153, 0.7);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
   outline: none; 
 }
 
