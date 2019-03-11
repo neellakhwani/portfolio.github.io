@@ -12,13 +12,12 @@ body{
 	background-repeat: repeat;
 }
 
-
-.comiclink {
+.comiclink{
 	text-decoration: none;
 	color: #33BBA4;
 }
 
-.comiclink:hover {
+.comiclink:hover{
 	text-decoration: none;
 	color: #F0586D;
 }
@@ -83,6 +82,7 @@ nav{
 	background-color: white;
 	height: 12vh;
 }
+
 nav ul{
 	list-style-type: none;
 	/*margin: -6.5vh 3vw 0 85vw;*/
@@ -106,8 +106,6 @@ nav ul li a:active{
 	color: #000;
 }
 
-
-
 .col-sm-4{
 	padding: 5vh 0 0 0;
 	text-align: center;
@@ -120,6 +118,7 @@ nav ul li a:active{
 	height: auto;
 	width: 245px;
 }
+
 .snapchatimg{
 	box-shadow: 0px 4px 6px rgba(224, 222, 65, 0.71);
 }
@@ -163,10 +162,11 @@ nav ul li a:active{
   right: 0px;
   text-align: center;
   font-size: 14px;
-  margin-top: 40px; }
+  margin-top: 40px; 
+}
 
   /* Uses https://github.com/IanLunn/Hover */
-.hvr-grow-shadow {
+.hvr-grow-shadow{
   background-color: #F1F1F1;
   display: inline;
   border: none;
@@ -198,21 +198,21 @@ nav ul li a:active{
   transition-property: box-shadow, transform, -webkit-transform; 
 }
 
-  .hvr-grow-shadow:hover,
-.hvr-grow-shadow:active {
+ .hvr-grow-shadow:hover,
+.hvr-grow-shadow:active{
   box-shadow: 0px 3px 34px -4px rgba(59, 89, 153, 0.7);
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
   outline: none; 
 }
 
-.heart {
+.heart{
   display: inline;
   font-size: 14px;
   color: #e74c3c; 
 }
 
-.bottomline {
+.bottomline{
 	padding-top: 1vh;
 }
 
@@ -243,7 +243,7 @@ nav ul li a:active{
 .email{
 	color: #33BBA4;
 }
-.email:hover {
+.email:hover{
 	text-decoration: none;
 	color: #F0586D;
 }
@@ -274,7 +274,7 @@ nav ul li a:active{
 	font-style: italic;
 	width: 30vw;
 }
-.content {
+.content{
 	margin: 3vh 0 4vh 3vw;
 	font-size: 16px;
 }
@@ -318,11 +318,11 @@ nav ul li a:active{
 	text-decoration: none;
   
 }
-
+/*RULES FOR MOBILE*/
 
 @media only screen and (max-width: 768px) {
 
-.spaced {
+.spaced{
 	margin-top: 60px; 
 }
 
@@ -411,7 +411,7 @@ nav ul li{
 	font-size: 16px;
 }
 
-.content {
+.content{
 	margin: 3vh 0 0 3vw;
 	font-size: px;
 	width: 100%;
