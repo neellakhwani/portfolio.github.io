@@ -7,6 +7,7 @@
 /*div{
 	border: 1px solid black;
 }*/
+
 body{
 	background-image:url(../images/background.svg);
 	background-repeat: repeat;
@@ -31,6 +32,7 @@ body{
 	text-decoration: none;
 	color: #000;
 }
+
 header{
 	display: inline-block;
 }
@@ -99,8 +101,7 @@ nav ul li a{
 	color: #000;
 }
 
-nav ul li a:hover,
-nav ul li a:active{
+nav ul li a:hover, nav ul li a:active{
 	border-bottom: 2px solid #F0586D;
 	text-decoration: none;
 	color: #000;
@@ -143,11 +144,11 @@ nav ul li a:active{
 	box-shadow: 0px 4px 10px #3C9555;
 }
 
-.spaced {
+.spaced{
   margin-top: 50px; 
 }
 
-.footer {
+.footer{
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   width: auto;
@@ -198,7 +199,7 @@ nav ul li a:active{
   transition-property: box-shadow, transform, -webkit-transform; 
 }
 
- .hvr-grow-shadow:hover,
+.hvr-grow-shadow:hover,
 .hvr-grow-shadow:active{
   box-shadow: 0px 3px 34px -4px rgba(59, 89, 153, 0.7);
   -webkit-transform: scale(1.2);
@@ -225,6 +226,7 @@ nav ul li a:active{
 	position: relative;
 	top: 25vh;
 }
+
 .hello{
 	font-weight: bold;
 	color: #F0586D;
@@ -243,6 +245,7 @@ nav ul li a:active{
 .email{
 	color: #33BBA4;
 }
+
 .email:hover{
 	text-decoration: none;
 	color: #F0586D;
@@ -274,6 +277,7 @@ nav ul li a:active{
 	font-style: italic;
 	width: 30vw;
 }
+
 .content{
 	margin: 3vh 0 4vh 3vw;
 	font-size: 16px;
@@ -294,6 +298,7 @@ nav ul li a:active{
 	font-style: italic;
 	margin: 2vh 0 2vh 0;
 }
+
 .divider{
 	border: 3px solid #EEEFF0;
 	box-sizing: border-box;
@@ -329,7 +334,7 @@ nav ul li a:active{
 nav{
 	background-color: #F8F8F8;
 	border-bottom: 2px solid #EEEEEE;
-	height: 14vh;
+	height: 14.5vh;
 }
 
 .menu{
@@ -344,6 +349,7 @@ nav{
 .menu li{
 	text-align: center;
 }
+
 .myname{
 	margin: auto;
 	position: relative;
@@ -396,6 +402,7 @@ nav ul li{
 	position: relative;
 	top: 10vh;
 }
+
 .hello{
 	font-weight: bold;
 	color: #F0586D;
@@ -407,6 +414,7 @@ nav ul li{
 	font-style: italic;
 	font-size: 20px;
 }
+
 .writeup{
 	font-size: 16px;
 }
